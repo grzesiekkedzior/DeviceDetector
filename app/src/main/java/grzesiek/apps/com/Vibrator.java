@@ -12,7 +12,6 @@ public class Vibrator {
     private final long[] pattern = new long[]{0, 1000, 1000};
     private final android.os.Vibrator vibrator;
 
-
     @SuppressLint("WrongConstant")
     public Vibrator(Activity activity) {
         this.vibrator = (android.os.Vibrator) activity.getSystemService("vibrator");
